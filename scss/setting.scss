@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family:'sans-icon';
+    src: url('../font/OriflameWebIcons.woff2');
+}
+// @font-face{
+//     font-family:'sans-bold';
+//     src: url('../font/sans-bold.woff2');
+// }
+// @font-face{
+//     font-family:'sans-condensed';
+//     src: url('../font/sans-condensed-bold.woff2');
+// }
+// @font-face{
+//     font-family:'sans-regular';
+//     src: url('../font/sans-regular.woff2');
+// }
+// html,body{
+//     // font-family: Arial, Helvetica, sans-serif;
+//     font-family:'sans-icon' !important;
+
+// }
+.active{
+    display: block !important;
+}
+.activelogin{
+    left: 0 !important;
+    z-index: 99999 !important;
+}
+.close{
+    display: none !important;
+
+}
