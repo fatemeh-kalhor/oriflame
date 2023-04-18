@@ -663,8 +663,11 @@ div.must-have{
    
     width: 100%;
     // height: 434px;
-    display: grid;
-    grid-template-rows:60% 40%;
+    // display: grid;
+    // grid-template-rows:60% 40%;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
     margin-top: 50px;
     align-items: center;
     justify-content: center;
@@ -708,8 +711,11 @@ div.must-have{
 
         }
         &:nth-of-type(2){
+            display: flex;
+            flex-flow: row;
+            flex-wrap: wrap;
             width: 100%;
-            height: 100%;
+            // height: 100%;
             background-color: rgb(245, 245, 245);
             padding: 60px;
             // margin-top: 10px;
@@ -733,7 +739,8 @@ div.must-have{
                 padding: 12px 23px;
                 border: 1px solid black;
                 border-radius: 25px;
-                position: relative;
+                // position: relative;
+                margin-bottom: 30px;
                 &:hover
 {
                     background-color:rgb(237, 237, 237);
